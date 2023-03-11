@@ -1,0 +1,33 @@
+---
+import Social from './Social.astro';
+import "../styles/global.css";
+import github from "../images/github_logo_light.png";
+import twitter from "../images/twitter_logo_light.png";
+import linkedin from "../images/linkedin_logo_light.png";
+---
+
+<footer>
+
+  <!--This is what the tutorial wants me to do but it doesn't have the same effect as my way. -->
+
+  <Social platform="twitter" username="kirill_mcc" />
+  <Social platform="github" username="kirillmcclintock" />
+  <Social platform="linkedin" username="in/kirill-m-0594a21bb" />
+
+  <!--My way.  Below is the behavior I want: -->
+
+  <a href="https://www.linkedin.com/in/kirill-mcclintock-0594a21bb/" 
+  target="_blank" rel="noreferrer">
+    <img class="social-media" alt="Linkedin" src={linkedin}>
+  </a>
+  <a href="https://github.com/kirillmcclintock" 
+  target="_blank" rel="noreferrer">
+    <img class="social-media" alt="Github" src={github} >
+  </a>
+  <a href="https://twitter.com/kirill_mcc" 
+  target="_blank" rel="noreferrer">
+    <img class="social-media" src={twitter} alt="Twitter">
+  </a>
+</footer>
+
+<!--Is there a way to reconcile these 2 methods? -->

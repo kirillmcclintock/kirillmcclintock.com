@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "My first blog post"
 pubDate: 2023-03-03
 descripton: "This is the first post in my new blog"
@@ -8,10 +9,6 @@ image:
     alt: 'The Astro logo with the word One.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-
-# My First Blog Post
-
-Published on: 2023-03-03
 
 ## What I've accomplished
 
