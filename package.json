@@ -1,5 +1,5 @@
 {
-	"name": "astro-tutorial",
+	"name": "kirillmcclintock.com",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
@@ -10,7 +10,10 @@
 		"astro": "astro"
 	},
 	"dependencies": {
+		"@astrojs/preact": "^2.1.0",
 		"@astrojs/rss": "^2.2.0",
-		"astro": "^2.0.16"
+		"@fontsource/roboto": "^4.5.8",
+		"astro": "^2.0.16",
+		"preact": "^10.13.1"
 	}
 }
