@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "I'm Going to Learn Jiu Jitsu?"
+title: "Test Title 2"
 author: Astro Learner
 image: 
     url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"
@@ -8,4 +8,5 @@ image:
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public","successes"]
 ---
-After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

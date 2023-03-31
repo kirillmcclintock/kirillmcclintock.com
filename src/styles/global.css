@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #fffffe;
   font-family: sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
   max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
-  color: rgb(63, 87, 153);
+  color: rgb(57, 70, 110);
 }
 
 * {
@@ -40,13 +40,18 @@ ul {
 li {
   padding: .5rem .5rem 0 0;
 }
+
 a {
   text-decoration: none;
-  color:rgb(63, 87, 153)
+  color:rgb(52, 64, 99)
+}
+
+nav {
+  margin-left: 0;
 }
 
 a:hover {
-  background-color: rgb(217, 223, 240);
+  background-color: rgb(228, 229, 249);
 }
 
 a:link {
@@ -59,6 +64,7 @@ a:hover {
 /* nav styles */
 
 .hamburger {
+  padding-left: 1.4rem;
   padding-right: 20px;
   cursor: pointer;
 }
@@ -68,15 +74,13 @@ a:hover {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #666666;
+  background-color: rgb(57, 70, 110);
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
-  left: 48px;
   display: none;
-  margin: 0;
 }
 
 .nav-links a {
@@ -88,13 +92,8 @@ a:hover {
   font-weight: bold;
 }
 
-.nav-links a:visited {
-  color: rgb(63, 87, 153);
-}
-
 .nav-links a:hover,
 a:focus {
-  background-color: rgb(217, 223, 240);
   border-radius: .3rem;
 }
 
@@ -102,9 +101,13 @@ a:focus {
   display: unset;
 }
 
+.below-header {
+  padding-left: 1.25rem;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    margin-left: 0rem;
     display: block;
     position: static;
     width: auto;
