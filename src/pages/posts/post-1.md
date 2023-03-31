@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "My first blog post"
+title: "How I Made This Blog"
 pubDate: 2023-03-03
 descripton: "This is the first post in my new blog"
 author: "Kirill McClintock"

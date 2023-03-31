@@ -4,5 +4,59 @@ const username = "withastro";
 ---
 
 <footer>
-  <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+       *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+       *  PLATFORM OR CMS.
+       *  
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+       *  https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      
+      //generate page urls or ids dynamically with a function:
+      var generate_url_id = function (type) {
+          if (type="url") {
+              //page urls are numbers only
+              return (Math.floor(100000 + Math.random() * 900000));
+          } else if (type="id") {
+              // page identifiers are letters only
+              const characters ='abcdefghijklmnopqrstuvwxyz';
+              function generateString(length) {
+                  let result = ' ';
+                  const charactersLength = characters.length;
+                  for ( let i = 0; i < length; i++ ) {
+                  result += characters.charAt(Math.floor(Math.random() * charactersLength));
+                  return result;
+                  }
+              }
+          }
+      }
+      var disqus_config = function () {
+          // call function and pass type=url
+          this.page.url = generate_url_id("url");  
+          
+          // call function and pass type=id        
+          this.page.identifier = generate_url_id("id"); 
+      };
+      
+      
+      (function() {
+          var d = document, s = d.createElement('script');
+          
+          s.src = 'https://kirillmcclintock.disqus.com/embed.js';
+          
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+
+  <noscript>
+      Please enable JavaScript to view the 
+      <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+          comments powered by Disqus.
+      </a>
+  </noscript>
+    <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
 </footer>

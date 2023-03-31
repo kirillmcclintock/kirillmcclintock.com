@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Fourth Blog Post
+title: "Quant Chronicles Pt 1:  Exploring Data"
 author: Astro Learner
 description: "This post will show up on its own!"
 image: 
