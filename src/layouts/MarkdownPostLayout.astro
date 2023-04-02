@@ -1,14 +1,12 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
+import Footer from '../components/Footer.astro';
 
 ---
 <BaseLayout pageTitle={frontmatter.title}>
     <p><em>{frontmatter.description}</em></p>
-    <p>{frontmatter.pubDate.slice(0,10)}</p>
-
-    <p>Written by: {frontmatter.author}</p>
-    <p>Topics:</p>
+    <p>{frontmatter.pubDate}</p>
     <div class="tags">
         {frontmatter.tags.map((tag) => (
         <p><a href={`/tags/${tag}`}>{tag}</a></p>
@@ -16,17 +14,17 @@ const { frontmatter } = Astro.props;
     </div>
 
     <slot />
+    <Footer></Footer>
 </BaseLayout>
 
 <style>
 a {
     color: #00539F;
 }
-            
+       
 .tags {
     display: flex; 
     flex-wrap: wrap; 
-    margin: 0 auto;  
 }
 
 .tag {
