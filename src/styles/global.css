@@ -1,15 +1,19 @@
 html {
   background-color: #fffffe;
-  font-family: sans-serif;
+  font-family: Roboto;
 }
 
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
+  max-width: 100ch;
   padding: 1rem;
   line-height: 1.5;
   color: rgb(57, 70, 110);
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 * {
@@ -18,11 +22,12 @@ body {
 
 h1 {
   margin: 1rem 0 0;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 h2 {
   margin-bottom: .25rem;
+  font-size: 2rem;
 }
 
 hr {
@@ -43,7 +48,8 @@ li {
 
 a {
   text-decoration: none;
-  color:rgb(52, 64, 99)
+  color:rgb(52, 64, 99);
+  font-size: 1.25rem;
 }
 
 nav {
@@ -55,7 +61,7 @@ a:hover {
 }
 
 a:link {
-  padding: .45rem .7rem;
+  padding: .4rem .7rem;
 }
 
 a:hover {
@@ -86,7 +92,6 @@ a:hover {
 .nav-links a {
   display: block;
   text-align: center;
-  padding: 10px 0;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
@@ -102,7 +107,7 @@ a:focus {
 }
 
 .below-header {
-  padding-left: 1.25rem;
+  padding-left: .65rem;
 }
 
 @media screen and (min-width: 636px) {
@@ -116,7 +121,7 @@ a:focus {
 
   .nav-links a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: .4rem .7rem;
   }
 
   .hamburger {
