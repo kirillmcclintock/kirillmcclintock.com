@@ -5,9 +5,9 @@ pubDate: "May 28, 2023"
 author: "Kirill McClintock"
 tags: ["blogging"]
 ---
+<strong>
 Notice:  Certain sections of this post have been redacted, then added back in.  The original publication date was April 1, 2023.  I realized that in an age where internet archiving exists, and in a time of my life where I am trying to live more ethically, that effective redaction is often futile, and that applying my ethical ideas to real-world scenarios is harder than I imagined.  Thus I realized that I should make an effort to minimize such changes in the future, and that is why I have restored this post to a version that closely resembles the original.
-
-Here is the blog post:
+</strong>
 
 Almost every successful person that I follow has conveyed their ideas in writing at some point. If I want to be like them, then maybe I should write, too.
 
